@@ -2,6 +2,7 @@
         x:Class="WPFPrimes.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:p="clr-namespace:WPFPrimes.Properties"
         Title="Prime Numbers" 
         Width="1024"
         Height="768" 
@@ -15,7 +16,7 @@
             <RowDefinition Height="10*" />          
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Name="LblTitle" Style="{StaticResource LabelWindowTitleStyle}" Content="Prime Numbers"></Label>
+        <Label Grid.Row="0" Name="LblTitle" Style="{StaticResource LabelWindowTitleStyle}" Content="{x:Static p:Resources.WindowTitle}"></Label>
 
         <Grid Grid.Row="1" Margin="10,0,10,0">
             <Grid.ColumnDefinitions>
@@ -25,15 +26,15 @@
                 <ColumnDefinition Width="20*" />
                 <ColumnDefinition Width="20*" />
             </Grid.ColumnDefinitions>
-            
-            <Button  Grid.Column="0" Name="BtnLanguageEnglish" Style="{StaticResource ButtonLanguageStyle}" Content="English"></Button>
-            <Button  Grid.Column="1" Name="BtnLanguageFrench" Style="{StaticResource ButtonLanguageStyle}" Content="Français"></Button>
-            <Button  Grid.Column="2" Name="BtnLanguagePortuguese" Style="{StaticResource ButtonLanguageStyle}" Content="Português"></Button>
-            <Button  Grid.Column="3" Name="BtnLanguageGerman" Style="{StaticResource ButtonLanguageStyle}" Content="Deustch"></Button>
-            <Button  Grid.Column="4" Name="BtnLanguageJapanese" Style="{StaticResource ButtonLanguageStyle}" Content="Nihon"></Button>
+
+            <Button  Grid.Column="0" Name="BtnLanguageEnglish" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageEnglish}"></Button>
+            <Button  Grid.Column="1" Name="BtnLanguageFrench" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageFrench}"></Button>
+            <Button  Grid.Column="2" Name="BtnLanguagePortuguese" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguagePortuguese}"></Button>
+            <Button  Grid.Column="3" Name="BtnLanguageGerman" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageGerman}"></Button>
+            <Button  Grid.Column="4" Name="BtnLanguageJapanese" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageJapanese}"></Button>
         </Grid>
 
-        <Label Grid.Row="2" Name="LblLstTitle" Style="{StaticResource LabelListBoxTitleStyle}" Margin="30,0,0,0" Content="List With Content:"></Label>
+        <Label Grid.Row="2" Name="LblLstTitle" Style="{StaticResource LabelListBoxTitleStyle}" Margin="30,0,0,0" Content="{x:Static p:Resources.ListBoxTitle}"></Label>
         <ListBox Grid.Row="3" Name="LstPrimes" Style="{StaticResource ListBoxStyle}"></ListBox>
 
         <Grid Grid.Row="4" Margin="10,0,10,0">
@@ -41,8 +42,8 @@
                 <ColumnDefinition Width="50*" />
                 <ColumnDefinition Width="50*" />         
             </Grid.ColumnDefinitions>
-            <Button  Grid.Column="0" Name="BtnGeneratePrimes" Style="{StaticResource ButtonActionStyle}" Content="Generate Primes"></Button>
-            <Button  Grid.Column="1" Name="BtnClearListPrimes" Style="{StaticResource ButtonActionStyle}" Content="Clear List"></Button>
+            <Button  Grid.Column="0" Name="BtnGeneratePrimes" Style="{StaticResource ButtonActionStyle}" Content="{x:Static p:Resources.ButtonGeneratePrimes}"></Button>
+            <Button  Grid.Column="1" Name="BtnClearListPrimes" Style="{StaticResource ButtonActionStyle}" Content="{x:Static p:Resources.ButtonClearListPrimes}"></Button>
          </Grid>
         
     </Grid>
