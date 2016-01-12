@@ -15,7 +15,7 @@
             <RowDefinition Height="10*" />          
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Name="LblTitle" Style="{StaticResource WindowTitleStyle}" Content="Prime Numbers"></Label>
+        <Label Grid.Row="0" Name="LblTitle" Style="{StaticResource LabelWindowTitleStyle}" Content="Prime Numbers"></Label>
 
         <Grid Grid.Row="1" Margin="10,0,10,0">
             <Grid.ColumnDefinitions>
@@ -26,23 +26,23 @@
                 <ColumnDefinition Width="20*" />
             </Grid.ColumnDefinitions>
             
-            <Button  Grid.Column="0" Name="BtnLanguageEnglish" Width="150" Height="50" Content="English"></Button>
-            <Button  Grid.Column="1" Name="BtnLanguageFrench" Width="150" Height="50" Content="Français"></Button>
-            <Button  Grid.Column="2" Name="BtnLanguagePortuguese" Width="150" Height="50" Content="Português"></Button>
-            <Button  Grid.Column="3" Name="BtnLanguageGerman" Width="150" Height="50" Content="Deustch"></Button>
-            <Button  Grid.Column="4" Name="BtnLanguageJapanese" Width="150" Height="50" Content="Nihon"></Button>
+            <Button  Grid.Column="0" Name="BtnLanguageEnglish" Style="{StaticResource ButtonLanguageStyle}" Content="English"></Button>
+            <Button  Grid.Column="1" Name="BtnLanguageFrench" Style="{StaticResource ButtonLanguageStyle}" Content="Français"></Button>
+            <Button  Grid.Column="2" Name="BtnLanguagePortuguese" Style="{StaticResource ButtonLanguageStyle}" Content="Português"></Button>
+            <Button  Grid.Column="3" Name="BtnLanguageGerman" Style="{StaticResource ButtonLanguageStyle}" Content="Deustch"></Button>
+            <Button  Grid.Column="4" Name="BtnLanguageJapanese" Style="{StaticResource ButtonLanguageStyle}" Content="Nihon"></Button>
         </Grid>
 
-        <Label   Grid.Row="2" Name="LblLstTitle"  Style="{StaticResource ListBoxTitleStyle}" Margin="30,0,0,0" Content="List With Content:"></Label>
-        <ListBox Grid.Row="3" Name="LstPrimes" Margin="35,0,35,10"></ListBox>
+        <Label Grid.Row="2" Name="LblLstTitle" Style="{StaticResource LabelListBoxTitleStyle}" Margin="30,0,0,0" Content="List With Content:"></Label>
+        <ListBox Grid.Row="3" Name="LstPrimes" Style="{StaticResource ListBoxStyle}"></ListBox>
 
         <Grid Grid.Row="4" Margin="10,0,10,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="50*" />
                 <ColumnDefinition Width="50*" />         
             </Grid.ColumnDefinitions>
-            <Button  Grid.Column="0" Name="BtnGeneratePrimes" Width="300" Height="50" Margin="10,0,10,10" Content="Generate Primes"></Button>
-            <Button  Grid.Column="1" Name="BtnClearListPrimes" Width="300" Height="50" Margin="10,0,10,10" Content="Clear List"></Button>
+            <Button  Grid.Column="0" Name="BtnGeneratePrimes" Style="{StaticResource ButtonActionStyle}" Content="Generate Primes"></Button>
+            <Button  Grid.Column="1" Name="BtnClearListPrimes" Style="{StaticResource ButtonActionStyle}" Content="Clear List"></Button>
          </Grid>
         
     </Grid>

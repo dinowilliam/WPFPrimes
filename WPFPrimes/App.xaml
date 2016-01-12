@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style x:Key="WindowTitleStyle" TargetType="{x:Type Label}">
+        <Style x:Key="LabelWindowTitleStyle" TargetType="{x:Type Label}">
             <Setter Property="FontFamily" Value="Colibri" />
             <Setter Property="FontStyle" Value="Oblique" />
             <Setter Property="FontWeight" Value="Bold" />
@@ -11,11 +11,39 @@
             <Setter Property="Foreground" Value="DarkSlateBlue" />
         </Style>
 
-        <Style x:Key="ListBoxTitleStyle" TargetType="{x:Type Label}">
+        <Style x:Key="LabelListBoxTitleStyle" TargetType="{x:Type Label}">
             <Setter Property="FontFamily" Value="Colibri" />
             <Setter Property="FontSize" Value="15" />
             <Setter Property="FontWeight" Value="Bold" />            
             <Setter Property="Foreground" Value="DarkSlateBlue" />
+        </Style>
+
+        <Style x:Key="ListBoxStyle" TargetType="{x:Type ListBox}">
+            <Setter Property="FontFamily" Value="Colibri" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Margin" Value="35,0,35,10" />
+        </Style>
+
+        <Style x:Key="ButtonLanguageStyle" TargetType="{x:Type Button}">
+            <Setter Property="FontFamily" Value="Colibri" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="DarkSlateBlue" />
+            <Setter Property="Width" Value="150" />
+            <Setter Property="Height" Value="50" />            
+        </Style>
+
+        <Style x:Key="ButtonActionStyle" TargetType="{x:Type Button}">
+            <Setter Property="FontFamily" Value="Colibri" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="DarkSlateBlue" />
+            <Setter Property="Width" Value="300" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Margin" Value="10,0,10,10" />         
         </Style>
     </Application.Resources>
 </Application>
