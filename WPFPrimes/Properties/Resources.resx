@@ -138,10 +138,13 @@
   <data name="ButtonLanguagePortuguese" xml:space="preserve">
     <value>Português</value>
   </data>
+  <data name="ButtonLanguageSpanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
   <data name="ListBoxTitle" xml:space="preserve">
     <value>List With Content:</value>
   </data>
   <data name="WindowTitle" xml:space="preserve">
-    <value>Prime Numbers</value>
+    <value>Prime Numbers Generator </value>
   </data>
 </root>

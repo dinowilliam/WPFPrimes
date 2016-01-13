@@ -124,6 +124,15 @@ namespace WPFPrimes.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Español.
+        /// </summary>
+        public static string ButtonLanguageSpanish {
+            get {
+                return ResourceManager.GetString("ButtonLanguageSpanish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to List With Content:.
         /// </summary>
         public static string ListBoxTitle {
@@ -133,7 +142,7 @@ namespace WPFPrimes.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Prime Numbers.
+        ///   Looks up a localized string similar to Prime Numbers Generator .
         /// </summary>
         public static string WindowTitle {
             get {
