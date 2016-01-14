@@ -153,6 +153,15 @@ namespace WPFPrimes.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Prime Numbers Generator .
         /// </summary>
+        public static string WindowDescription {
+            get {
+                return ResourceManager.GetString("WindowDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prime Numbers.
+        /// </summary>
         public static string WindowTitle {
             get {
                 return ResourceManager.GetString("WindowTitle", resourceCulture);

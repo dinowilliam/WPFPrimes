@@ -119,18 +119,23 @@
   </resheader>
   <data name="ButtonClearListPrimes" xml:space="preserve">
     <value>Effacer la liste</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonGeneratePrimes" xml:space="preserve">
     <value>Générer des nombres premiers</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageEnglish" xml:space="preserve">
     <value>English</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageFrench" xml:space="preserve">
     <value>Français</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageGerman" xml:space="preserve">
     <value>Deustch</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageItalian" xml:space="preserve">
     <value>Italiano</value>
@@ -138,17 +143,26 @@
   </data>
   <data name="ButtonLanguageJapanese" xml:space="preserve">
     <value>日本語</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguagePortuguese" xml:space="preserve">
     <value>Português</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageSpanish" xml:space="preserve">
     <value>Español</value>
+    <comment>Button</comment>
   </data>
   <data name="ListBoxTitle" xml:space="preserve">
     <value>Liste avec Contenu:</value>
+    <comment>Label</comment>
+  </data>
+  <data name="WindowDescription" xml:space="preserve">
+    <value>Générateur de Nombres Premiers </value>
+    <comment>Label</comment>
   </data>
   <data name="WindowTitle" xml:space="preserve">
-    <value>Générateur de Nombres Premiers</value>
+    <value>Nombres Premiers </value>
+    <comment>TitleBar</comment>
   </data>
 </root>

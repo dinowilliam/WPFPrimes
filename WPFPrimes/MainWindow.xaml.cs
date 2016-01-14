@@ -39,18 +39,17 @@ namespace WPFPrimes
         }
 
         private void ReloadResourceText()
-        {            
-            this.LblTitle.Content = Properties.Resources.WindowTitle;
+        {
+            this.Title = Properties.Resources.WindowTitle;
+            this.LblTitle.Content = Properties.Resources.WindowDescription;
             this.LblLstTitle.Content = Properties.Resources.ListBoxTitle;
 
             this.BtnGeneratePrimes.Content = Properties.Resources.ButtonGeneratePrimes;
             this.BtnClearListPrimes.Content = Properties.Resources.ButtonClearListPrimes;
-
         }
 
         private void BtnLanguageEnglish_Click(object sender, RoutedEventArgs e) {
-            SetCulture(new CultureInfo("en-US"));
-            
+            SetCulture(new CultureInfo("en-US"));            
         }
 
         private void BtnLanguageFrench_Click(object sender, RoutedEventArgs e) {

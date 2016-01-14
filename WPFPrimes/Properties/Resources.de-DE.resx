@@ -157,8 +157,12 @@
     <value>Liste mit Inhalt:</value>
     <comment>Label</comment>
   </data>
-  <data name="WindowTitle" xml:space="preserve">
-    <value>Primzahlen Generator</value>
+  <data name="WindowDescription" xml:space="preserve">
+    <value>Primzahlen Generator </value>
     <comment>Label</comment>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>Primzahlen</value>
+    <comment>TitleBar</comment>
   </data>
 </root>

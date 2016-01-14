@@ -157,8 +157,12 @@
     <value>コンテンツを持つリスト：</value>
     <comment>Label</comment>
   </data>
-  <data name="WindowTitle" xml:space="preserve">
-    <value>素数ジェネレータ</value>
+  <data name="WindowDescription" xml:space="preserve">
+    <value>素数ジェネレータ </value>
     <comment>Label</comment>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>素数</value>
+    <comment>TitleBar</comment>
   </data>
 </root>

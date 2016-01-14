@@ -157,8 +157,12 @@
     <value>Elenco Contenuti</value>
     <comment>Label</comment>
   </data>
-  <data name="WindowTitle" xml:space="preserve">
-    <value>Generatore di Numeri Primi</value>
+  <data name="WindowDescription" xml:space="preserve">
+    <value>Generatore di Numeri Primi </value>
     <comment>Label</comment>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>Numeri Primi </value>
+    <comment>TitleBar</comment>
   </data>
 </root>
