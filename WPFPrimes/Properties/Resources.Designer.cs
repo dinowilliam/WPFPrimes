@@ -106,6 +106,15 @@ namespace WPFPrimes.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Italiano.
+        /// </summary>
+        public static string ButtonLanguageItalian {
+            get {
+                return ResourceManager.GetString("ButtonLanguageItalian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 日本語.
         /// </summary>
         public static string ButtonLanguageJapanese {

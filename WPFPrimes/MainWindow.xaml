@@ -20,20 +20,22 @@
 
         <Grid Grid.Row="1" Margin="10,0,10,0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="17*" />
-                <ColumnDefinition Width="17*" />
-                <ColumnDefinition Width="17*" />
-                <ColumnDefinition Width="17*" />
-                <ColumnDefinition Width="17*" />
-                <ColumnDefinition Width="17*" />
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
             </Grid.ColumnDefinitions>
 
-            <Button  Grid.Column="0" Name="BtnLanguageEnglish" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageEnglish}"></Button>
-            <Button  Grid.Column="1" Name="BtnLanguageFrench" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageFrench}"></Button>
-            <Button  Grid.Column="2" Name="BtnLanguagePortuguese" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguagePortuguese}"></Button>
-            <Button  Grid.Column="3" Name="BtnLanguageGerman" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageGerman}"></Button>
-            <Button  Grid.Column="4" Name="BtnLanguageJapanese" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageJapanese}"></Button>
-            <Button  Grid.Column="5" Name="BtnLanguageSpanish" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageSpanish}"></Button>
+            <Button  Grid.Column="0" Name="BtnLanguageEnglish" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageEnglish}" Click="BtnLanguageEnglish_Click"></Button>
+            <Button  Grid.Column="1" Name="BtnLanguageFrench" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageFrench}" Click="BtnLanguageFrench_Click"></Button>
+            <Button  Grid.Column="2" Name="BtnLanguagePortuguese" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguagePortuguese}" Click="BtnLanguagePortuguese_Click"></Button>
+            <Button  Grid.Column="3" Name="BtnLanguageGerman" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageGerman}" Click="BtnLanguageGerman_Click"></Button>
+            <Button  Grid.Column="4" Name="BtnLanguageJapanese" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageJapanese}" Click="BtnLanguageJapanese_Click"></Button>
+            <Button  Grid.Column="5" Name="BtnLanguageSpanish" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageSpanish}" Click="BtnLanguageSpanish_Click"></Button>
+            <Button  Grid.Column="6" Name="BtnLanguageItalian" Style="{StaticResource ButtonLanguageStyle}" Content="{x:Static p:Resources.ButtonLanguageItalian}" Click="BtnLanguageItalian_Click"></Button>
         </Grid>
 
         <Label Grid.Row="2" Name="LblLstTitle" Style="{StaticResource LabelListBoxTitleStyle}" Margin="30,0,0,0" Content="{x:Static p:Resources.ListBoxTitle}"></Label>

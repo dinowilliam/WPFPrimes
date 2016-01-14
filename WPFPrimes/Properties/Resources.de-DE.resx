@@ -118,33 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ButtonClearListPrimes" xml:space="preserve">
-    <value>Clear List</value>
+    <value>Klare Liste</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonGeneratePrimes" xml:space="preserve">
-    <value>Generate Primes</value>
+    <value>Generieren Primzahlen</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageEnglish" xml:space="preserve">
     <value>English</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageFrench" xml:space="preserve">
     <value>Français</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageGerman" xml:space="preserve">
     <value>Deustch</value>
+    <comment>Button</comment>
+  </data>
+  <data name="ButtonLanguageItalian" xml:space="preserve">
+    <value>Italiano</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageJapanese" xml:space="preserve">
     <value>日本語</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguagePortuguese" xml:space="preserve">
     <value>Português</value>
+    <comment>Button</comment>
   </data>
   <data name="ButtonLanguageSpanish" xml:space="preserve">
     <value>Español</value>
+    <comment>Button</comment>
   </data>
   <data name="ListBoxTitle" xml:space="preserve">
-    <value>List With Content:</value>
+    <value>Liste mit Inhalt:</value>
+    <comment>Label</comment>
   </data>
   <data name="WindowTitle" xml:space="preserve">
-    <value>Prime Numbers Generator </value>
+    <value>Primzahlen Generator</value>
+    <comment>Label</comment>
   </data>
 </root>
