@@ -9,14 +9,34 @@ namespace WPFPrimes.Business
 {
     public class Primes : IPrimes
     {
+        private List<String> listOfPrimeNumbers;
+
         public Primes()
         {
-            
+            listOfPrimeNumbers = new List<string>();
+            GeneratePrimeNumberList();
+
+        }
+
+        private Boolean GeneratePrimeNumberList()
+        {
+            PrimeNumber primeNumber; 
+
+            for (int iCont = 1; iCont <= 1000; iCont++){
+                primeNumber = iCont;
+
+                if (primeNumber.IsAPrimeNumber){
+                    listOfPrimeNumbers.Add(primeNumber.Value.ToString());
+                }
+            }
+
+
+            return listOfPrimeNumbers.Any()? true: false;
         }
 
         public List<String> GetListPrimeNumbers()
         {
-            return new List<String>();
+            return listOfPrimeNumbers;
         }
     }
 }

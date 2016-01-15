@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFPrimes.Business;
 using WPFPrimes.Properties;
 
 namespace WPFPrimes
@@ -74,6 +75,22 @@ namespace WPFPrimes
 
         private void BtnLanguageItalian_Click(object sender, RoutedEventArgs e) {
             SetCulture(new CultureInfo("it-IT"));
+        }
+
+        private void BtnClearListPrimes_Click(object sender, RoutedEventArgs e) {
+            this.LstPrimes.Items.Clear();
+        }
+
+        private void BtnGeneratePrimes_Click(object sender, RoutedEventArgs e) {
+            Primes primes = new Primes();
+            
+            var listPrimes = primes.GetListPrimeNumbers();
+
+            foreach (String item in listPrimes){
+                
+                this.LstPrimes.Items.Add(item);
+
+            }
         }   
     }
 }
