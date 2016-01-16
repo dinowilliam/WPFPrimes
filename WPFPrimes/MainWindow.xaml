@@ -6,7 +6,7 @@
         Title="{x:Static p:Resources.WindowTitle}" 
         Width="1024"
         Height="768" 
-        ResizeMode="NoResize">    
+        ResizeMode="NoResize" Icon="Resources/favicon.ico">    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="5*" />

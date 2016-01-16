@@ -15,7 +15,6 @@ namespace WPFPrimes.Business
         {
             listOfPrimeNumbers = new List<string>();
             GeneratePrimeNumberList();
-
         }
 
         private Boolean GeneratePrimeNumberList()
