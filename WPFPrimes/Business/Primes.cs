@@ -21,7 +21,7 @@ namespace WPFPrimes.Business
         {
             PrimeNumber primeNumber; 
 
-            for (int iCont = 1; iCont <= 1000; iCont++){
+            for (int iCont = 1; iCont <= 100000; iCont++){
                 primeNumber = iCont;
 
                 if (primeNumber.IsAPrimeNumber){

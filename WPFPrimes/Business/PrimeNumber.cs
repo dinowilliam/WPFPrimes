@@ -19,7 +19,7 @@ namespace WPFPrimes.Business
         public static implicit operator PrimeNumber(int value)
         {
             return new PrimeNumber(value);
-	    }
+        }
 
         public Boolean IsAPrimeNumber
         {
