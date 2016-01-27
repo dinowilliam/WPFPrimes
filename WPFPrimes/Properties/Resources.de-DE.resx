@@ -157,6 +157,18 @@
     <value>Liste mit Inhalt:</value>
     <comment>Label</comment>
   </data>
+  <data name="SplashDevelopBy" xml:space="preserve">
+    <value>Entwickeln von William Ferreira de Paula</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitle" xml:space="preserve">
+    <value>Primzahlen Generator</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitleMathematics" xml:space="preserve">
+    <value>Mathematik</value>
+    <comment>Label</comment>
+  </data>
   <data name="WindowDescription" xml:space="preserve">
     <value>Primzahlen Generator </value>
     <comment>Label</comment>

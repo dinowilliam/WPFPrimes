@@ -157,6 +157,18 @@
     <value>Enumere Con contenido:</value>
     <comment>Label</comment>
   </data>
+  <data name="SplashDevelopBy" xml:space="preserve">
+    <value>Desarrollado Por William Ferreira de Paula</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitle" xml:space="preserve">
+    <value>Generador de Número Primo</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitleMathematics" xml:space="preserve">
+    <value>Matemática</value>
+    <comment>Label</comment>
+  </data>
   <data name="WindowDescription" xml:space="preserve">
     <value>Generador de Números Primos </value>
     <comment>Label</comment>

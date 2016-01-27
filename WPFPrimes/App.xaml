@@ -1,7 +1,7 @@
 ﻿<Application x:Class="WPFPrimes.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="MainWindow.xaml">
+             StartupUri="\Views\Splash.xaml">
     <Application.Resources>
         <Style x:Key="LabelWindowTitleStyle" TargetType="{x:Type Label}">
             <Setter Property="FontFamily" Value="Colibri" />
@@ -15,6 +15,35 @@
             <Setter Property="FontFamily" Value="Colibri" />
             <Setter Property="FontSize" Value="15" />
             <Setter Property="FontWeight" Value="Bold" />            
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+        </Style>
+
+        <Style x:Key="LabelSplashScreenMathematics" TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="FontFamily" Value="Colibri" />
+            <Setter Property="FontStyle" Value="Italic" />
+            <Setter Property="FontSize" Value="45" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+        </Style>
+
+        <Style x:Key="LabelSplashScreenTitle" TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="FontFamily" Value="Colibri" />
+            <Setter Property="FontStyle" Value="Normal" />
+            <Setter Property="FontSize" Value="35" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="DarkSlateBlue" />
+        </Style>
+
+        <Style x:Key="LabelSplashScreenDevelopment" TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontFamily" Value="Colibri" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Foreground" Value="DarkSlateBlue" />
         </Style>
 

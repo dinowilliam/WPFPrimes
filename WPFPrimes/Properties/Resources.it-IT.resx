@@ -157,6 +157,18 @@
     <value>Elenco Contenuti</value>
     <comment>Label</comment>
   </data>
+  <data name="SplashDevelopBy" xml:space="preserve">
+    <value>Sviluppare Di William Ferreira de Paula</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitle" xml:space="preserve">
+    <value>Generatore Di Numeri Primi</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitleMathematics" xml:space="preserve">
+    <value>Matematica</value>
+    <comment>Label</comment>
+  </data>
   <data name="WindowDescription" xml:space="preserve">
     <value>Generatore di Numeri Primi </value>
     <comment>Label</comment>

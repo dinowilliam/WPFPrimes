@@ -151,6 +151,33 @@ namespace WPFPrimes.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Develop By William Ferreira de Paula.
+        /// </summary>
+        public static string SplashDevelopBy {
+            get {
+                return ResourceManager.GetString("SplashDevelopBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prime Number Generator.
+        /// </summary>
+        public static string SplashTitle {
+            get {
+                return ResourceManager.GetString("SplashTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mathematics.
+        /// </summary>
+        public static string SplashTitleMathematics {
+            get {
+                return ResourceManager.GetString("SplashTitleMathematics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Prime Numbers Generator .
         /// </summary>
         public static string WindowDescription {

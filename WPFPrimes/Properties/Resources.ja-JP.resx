@@ -157,6 +157,18 @@
     <value>コンテンツを持つリスト：</value>
     <comment>Label</comment>
   </data>
+  <data name="SplashDevelopBy" xml:space="preserve">
+    <value>ウィリアム・フェレイラ・デ・パウラによって開発</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitle" xml:space="preserve">
+    <value>素数</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SplashTitleMathematics" xml:space="preserve">
+    <value>数学</value>
+    <comment>Label</comment>
+  </data>
   <data name="WindowDescription" xml:space="preserve">
     <value>素数ジェネレータ </value>
     <comment>Label</comment>

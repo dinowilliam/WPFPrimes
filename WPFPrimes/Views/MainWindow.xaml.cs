@@ -17,7 +17,7 @@ using System.Windows.Shapes;
 using WPFPrimes.Business;
 using WPFPrimes.Properties;
 
-namespace WPFPrimes
+namespace WPFPrimes.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
